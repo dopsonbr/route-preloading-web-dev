@@ -8,7 +8,7 @@ import { Router, RouteConfigLoadStart, RouteConfigLoadEnd, RouterEvent } from '@
 })
 export class AppComponent {
   loading: boolean;
-
+  list = Array(500);
   constructor(router: Router) {
     this.loading = false;
 

@@ -62,7 +62,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "preloading-web-dev:build"
+            "browserTarget": "preloading-web-dev:build",
+            "port": 4300
           },
           "configurations": {
             "production": {
